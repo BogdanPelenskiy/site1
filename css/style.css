@@ -1,0 +1,417 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+.fon{
+
+width: 1265px;
+height: 926px;
+background-color: #eff0f2;
+
+}
+
+
+.name_company{
+
+width: 113px;
+height: 46px;
+border: 6px solid #170f1c;
+margin: -900px 0 0 140px;
+z-index: 1;
+}
+
+.text_namecompany{
+	text-align: center;
+	display: block;
+	margin: 9px 0 0 0;
+	font-family: monospace;
+	font-weight: 700;
+	font-size: 17px;
+}
+.tree_lin{
+
+width: 30px;
+height: 4px;
+border-radius: 2px;
+background-color: #000000;
+margin: -46px 0 0 1207px;
+}
+
+.tree_lin_2{
+	width: 30px;
+height: 4px;
+border-radius: 2px;
+background-color: #000000;
+margin: 5px 0 0 1207px;
+}
+
+.tree_lin_3{
+	width: 30px;
+height: 4px;
+border-radius: 2px;
+background-color: #000000;
+margin: 5px 0 0 1207px;
+}
+
+.TEXT1{
+	/* Style for "Say Hello" */
+width: 608px;
+height: 33px;
+text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+color: #505050;
+font-family: Montserrat;
+font-size: 45px;
+font-weight: 700;
+display: block;
+margin: 200px 0 0 350px;
+}
+
+
+.TEXT2{
+
+text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+color: #505050;
+font-family: Montserrat;
+font-size: 45px;
+font-weight: 700;
+display: block;50px;
+margin: 20px 0 0 200px;
+display: block;
+
+}
+
+.db1{
+	/* Style for "Rectangle" */
+width: 255px;
+background-color: #76f4ea;
+height: 54px;
+margin: -100px 0 0 620px;
+
+}
+
+.db2{
+	width: 190px;
+background-color: #76f4ea;
+height: 54px;
+margin: 0 0 0 190px;
+
+}
+
+.border_1{
+	/* Style for "Rounded Re" */
+width: 232px;
+height: 53px;
+border-radius: 2px;
+border: 2px solid #000000;
+opacity: 0.5;
+text-align: center;
+margin: 300px 0 0 500px;
+}
+
+.text3{
+	/* Style for "CONTACT US" */
+width: 136px;
+height: 13px;
+opacity: 0.75;
+color: #000000;
+font-family: Montserrat;
+font-size: 18px;
+text-align: center;
+margin: 15px 0 0 43px;
+}
+
+.imade_1{
+margin: 0px 0 0 -60px;
+z-index: 1;
+}
+.imade_2{
+	margin: 10px 0 0 1000px;
+}
+
+.name_2{
+	/* Style for "ABOUT US" */
+width: 219px;
+height: 28px;
+opacity: 0.9;
+color: #000000;
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 700;
+display: block;
+text-align: center;
+margin: 0 0 0 520px;
+}
+
+.text4{
+	/* Style for "Lorem ipsu" */
+width: 617px;
+height: 15px;
+font-family: Merriweather;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-transform: uppercase;
+display: block;
+margin: 10px 0 0 370px;
+color: #000000;
+opacity: 0.62;
+}
+.bd_image{
+
+width: 479px;
+height: 412px;
+background-color: #eff0f2;
+margin: 50px 0 0 150px;
+}
+
+.img_1{
+	margin: 0 0 0 45px;
+}
+
+.imgtext_ride1_name{
+/* Style for "We Actuall" */
+width: 406px;
+height: 17px;
+opacity: 0.75;
+color: #000000;
+font-family: Merriweather;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-transform: uppercase;
+display: block;
+margin: -400px 0 0 700px;
+}
+.imgtext_ride1{
+	/* Style for "A visual a" */
+width: 474px;
+height: 212px;
+opacity: 0.74;
+color: #000000;
+font-family: Raleway;
+
+line-height: 28px;
+display: block;
+margin: 10px 0 0 700px;
+}
+
+.imgtext_ride2_name{
+	/* Style for "why we are" */
+width: 254px;
+height: 17px;
+opacity: 0.75;
+color: #000000;
+font-family: Merriweather;
+font-size: 17px;
+font-weight: 700;
+text-transform: uppercase;
+display: block;
+margin: 70px 0 0 700px;
+}
+
+.imgtext_ride2{
+	/* Style for "A visual a" */
+width: 469px;
+height: 72px;
+opacity: 0.74;
+color: #000000;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin: 10px 0 0 700px;
+}
+
+
+.name3{
+	/* Style for "featured w" */
+width: 401px;
+height: 28px;
+opacity: 0.9;
+color: #000000;
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 200px 0 0 450px;
+
+}
+
+.text5{
+	/* Style for "Lorem ipsu" */
+width: 583px;
+height: 14px;
+opacity: 0.62;
+color: #000000;
+font-family: Merriweather;
+font-size: 17px;
+font-weight: 400;
+
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+display: block;
+margin: 20px 0 0 360px;
+
+}
+
+.img__1{
+	margin: 40px 0 0 70px;
+}
+
+.img__2{
+		margin: 40px 0 0 20px;
+}
+
+.img__3{
+			margin: 40px 0 0 20px;
+}
+
+.name3_3{
+	/* Style for "our servic" */
+width: 317px;
+height: 28px;
+opacity: 0.9;
+color: #000000;
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+margin: 50px 0 0 500px;
+}
+
+.textinname3{
+	/* Style for "Lorem ipsu" */
+width: 583px;
+height: 14px;
+opacity: 0.62;
+color: #000000;
+font-family: Merriweather;
+font-size: 17px;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+margin: 20px 0 0 350px;
+}
+
+.bacground__1{
+
+width: 652px;
+height: 422px;
+background-color: #6df6eb;
+opacity: 0.97;
+margin: 30px 0 0 50px;
+}
+.in_bacground__1{
+	/* Style for "Designing" */
+
+height: 17px;
+opacity: 0.83;
+color: #000000;
+font-family: Merriweather;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+text-transform: uppercase;
+padding: 80px 0 0 80px;
+}
+
+
+.in_bacground__2{
+	/* Style for "Our most p" */
+width: 470px;
+height: 156px;
+opacity: 0.75;
+color: #000000;
+font-family: Raleway;
+font-size: 18px;
+margin: 40px 0 0 80px;
+}
+
+.bd_img_1{
+	margin: -430px 0 0 750px;
+}
+.bdd_1{
+
+width: 474px;
+height: 422px;
+background-color: #000000;
+opacity: 0.6;
+margin: -430px 0 0 750px;
+}
+
+.bdd_1_text{
+	/* Style for "cool psd D" */
+
+height: 17px;
+opacity: 0.95;
+color: #ffffff;
+font-family: Merriweather;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 120px 0 0 50px;
+}
+.bdd_1_text1{
+	/* Style for "Our most p" */
+
+
+
+height: 63px;
+opacity: 0.9;
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+z-index: 1;
+padding: 30px 0 0 50px;
+}
+
+.bdd_button1{
+	/* Style for "Know More" */
+height: 13px;
+opacity: 0.9;
+color: #f9fbfb;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+text-transform: uppercase;
+padding: 140px 0 0 50px;
+}
+
